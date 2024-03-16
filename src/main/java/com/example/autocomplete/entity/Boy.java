@@ -1,10 +1,12 @@
 package com.example.autocomplete.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
 @NoArgsConstructor
+@Data
 public class Boy {
 
     @Id
@@ -13,11 +15,4 @@ public class Boy {
 
     private String name;
 
-    public Boy(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return this.name;
-    }
 }
