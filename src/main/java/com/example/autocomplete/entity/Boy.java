@@ -14,5 +14,4 @@ public class Boy {
     private Long id;
 
     private String name;
-
 }
